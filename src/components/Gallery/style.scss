@@ -1,0 +1,53 @@
+.container {
+  text-align: center;
+  height: auto;
+}
+
+.imageBackground {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.imageElement {
+  margin: auto;
+
+  h3 {
+    color: #aaa5b6;
+    margin: 0;
+  }
+
+  p {
+    width: 200px;
+    margin: 2px 0 2px 0;
+    background-color: white;
+    font-size: 0.8rem;
+    color: #aaa5b6;
+  }
+}
+
+.image {
+  width: 200px;
+  margin-top: 1rem;
+  background-color: white;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 14px 0 rgba(black, 0.2);
+}
+
+@media only screen and (max-width: 540px) {
+  .imageBackground {
+    grid-template-columns: (1fr 1fr);
+  }
+
+  .imageElement p {
+    width: 150px;
+  }
+
+  .image {
+    width: 150px;
+  }
+}

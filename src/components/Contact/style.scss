@@ -1,0 +1,48 @@
+// .contact-form {
+//   text-align: center;
+// }
+
+.contact-background {
+  display: flex;
+  padding-top: 10%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-title {
+  color: #796c99;
+}
+textarea {
+  width: 35%;
+  height: 50%;
+}
+
+.contact-form {
+  label {
+    color: #796c99;
+  }
+
+  input {
+    border: solid 2px #56a3a6;
+    width: 300px;
+  }
+
+  textarea {
+    width: 60%;
+    height: 100px;
+    border: solid 2px #56a3a6;
+    outline: none;
+    text-indent: 0.5rem;
+    font-size: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  button {
+    border: solid 2px #56a3a6;
+    background-color: white;
+    color: #796c99;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}
