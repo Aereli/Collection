@@ -10,10 +10,11 @@ const Contact = () => (
     <div className="contact-form">
       <form
         name="contact"
-        method="post"
+        method="POST"
         action="/thanks"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
+        netlify
       >
         <input type="hidden" name="form-name" value="contact" />
         <p>
