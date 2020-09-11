@@ -14,9 +14,7 @@ const Contact = () => (
         action="/thanks"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        netlify
       >
-        <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>
             Your Name: <input type="text" name="name" />
@@ -28,7 +26,7 @@ const Contact = () => (
           </label>
         </p>
         <p>
-          <textarea name="message" placeholder="message me here.."></textarea>
+          <textarea name="message" placeholder="message me here.." />
         </p>
         <p>
           <button type="submit">Send</button>
