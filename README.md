@@ -3,6 +3,7 @@
 ### Includes:
 
 - Responsive `NavBar` with hamburger
+- image gallery using [lightbox package](https://www.npmjs.com/package/react-image-lightbox)
 
 In the project directory, you can run:
 
