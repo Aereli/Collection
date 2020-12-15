@@ -19,14 +19,12 @@ export default function ImageGallery() {
     <div className={styles.background}>
       <div className={styles.images}>
         {images.map((item) => (
-          // <div className={styles.imageContainer}>
           <img
             className={styles.singleImage}
             src={item.url}
             alt={item.id}
             onClick={() => imageHandler(item.id)}
           />
-          // </div>
         ))}
       </div>
 
