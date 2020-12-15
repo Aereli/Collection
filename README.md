@@ -1,9 +1,11 @@
-## React Components to remind oneself
+## React Components to remind oneself and showcase
 
 ### Includes:
 
 - Responsive `NavBar` with hamburger
 - image gallery using [lightbox package](https://www.npmjs.com/package/react-image-lightbox)
+- navigation using `react-router-dom` https://www.npmjs.com/package/react-router-dom
+- [calandly](https://www.npmjs.com/package/react-calendly)
 
 In the project directory, you can run:
 
