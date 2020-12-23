@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.18138282245602, 25.83468232401341]
+      },
+      "type": "Feature",
+      "properties": {
+        "description": "Eric Home",
+        "marker-symbol": "rail-metro",
+        "title": "Eric home",
+        "url": "https://oyanadel.com",
+        "lines": ["Green"],
+        "address": "777 NE 62 ST"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.42706613264777, 25.66661370462553]
+      },
+      "type": "Feature",
+      "properties": {
+        "description": "Mom Home",
+        "marker-symbol": "rail-metro",
+        "title": "Mom home",
+        "url": "https://oyanadel.com",
+        "lines": ["Green"],
+        "address": "777 NE 62 ST"
+      }
+    }
+  ]
+}

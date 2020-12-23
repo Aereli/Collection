@@ -19,6 +19,11 @@ const NavBar = () => {
           <a href="/">About</a>
         </li>
         <li>
+          <Link path to="/geomap">
+            GeoMap
+          </Link>
+        </li>
+        <li>
           <Link path to="/contact">
             Contact
           </Link>

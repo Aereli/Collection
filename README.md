@@ -6,6 +6,7 @@
 - image gallery using [lightbox package](https://www.npmjs.com/package/react-image-lightbox)
 - navigation using `react-router-dom` https://www.npmjs.com/package/react-router-dom
 - [calandly](https://www.npmjs.com/package/react-calendly)
+- [MapBox] (https://docs.mapbox.com/mapbox-gl-js/api/) requires account
 
 In the project directory, you can run:
 
